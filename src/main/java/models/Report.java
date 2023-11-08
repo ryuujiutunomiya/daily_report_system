@@ -76,6 +76,12 @@ public class Report {
     private String title;
 
     /**
+     * いいね！された数
+     */
+    @Column(name = JpaConst.REP_COL_LIKE_COUNT,nullable = false)
+    private Integer like_count = 0;
+
+    /**
      * 日報の内容
      */
     @Lob

@@ -39,6 +39,11 @@ public class ReportView {
     private String title;
 
     /**
+     * いいね！された数
+     */
+    private Integer like_count;
+
+    /**
      * 日報の内容
      */
     private String content;

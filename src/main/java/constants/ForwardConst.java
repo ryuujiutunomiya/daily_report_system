@@ -24,6 +24,7 @@ public enum ForwardConst {
     CMD_NEW("entryNew"),
     CMD_CREATE("create"),
     CMD_EDIT("edit"),
+    CMD_LIKE("like"),
     CMD_UPDATE("update"),
     CMD_DESTROY("destroy"),
 
@@ -37,6 +38,7 @@ public enum ForwardConst {
     FW_EMP_EDIT("employees/edit"),
     FW_REP_INDEX("reports/index"),
     FW_REP_SHOW("reports/show"),
+    FW_REP_LIKE("reports/like"),
     FW_REP_NEW("reports/new"),
     FW_REP_EDIT("reports/edit");
 
