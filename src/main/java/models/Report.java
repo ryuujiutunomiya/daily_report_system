@@ -79,7 +79,7 @@ public class Report {
      * いいね！された数
      */
     @Column(name = JpaConst.REP_COL_LIKE_COUNT,nullable = false)
-    private Integer like_count = 0;
+    private Integer like_count;
 
     /**
      * 日報の内容

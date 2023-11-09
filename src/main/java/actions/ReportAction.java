@@ -109,7 +109,7 @@ public class ReportAction extends ActionBase {
                     ev, //ログインしている従業員を、日報作成者として登録する
                     day,
                     getRequestParam(AttributeConst.REP_TITLE),
-                    null,
+                    0,
                     getRequestParam(AttributeConst.REP_CONTENT),
                     null,
                     null);
